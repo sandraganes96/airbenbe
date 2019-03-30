@@ -7,9 +7,9 @@
 	<title>Persewaan Liburan, Rumah, Pengalaman & Tempat - AirBeNBe</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 	<script src="<?php echo base_url(); ?>assets/jquery-3.3.1.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <style type="text/css">
-    	@font-face {
+	<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		@font-face {
 			font-family: "Cereal-M";
 			src: url("<?php echo base_url() ?>assets/fonts/AirbnbCereal-Medium.ttf");
 		}
@@ -25,10 +25,8 @@
 			font-family: "Cereal-Bk";
 			src: url("<?php echo base_url() ?>assets/fonts/AirbnbCereal-Book.ttf");
 		}
-    	.navbar.transparent {
-
-  			
-  			padding: 15px;
+		.navbar.transparent {
+			padding: 15px;
 
 		}
 		#up {
