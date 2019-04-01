@@ -114,9 +114,9 @@
 	
 <div class="container" style="margin-top: 40px;">
 	<div class="row">
-		<p style="font-family: Cereal-B; font-size: 25px;">Jelajahi AirBeNBe</p>
+		
 		<div class="col-md-3">
-			
+			<p style="font-family: Cereal-B; font-size: 25px;">Jelajahi AirBeNBe</p>
 		</div>
 		<div class="col-md-3">
 			
@@ -124,6 +124,36 @@
 		<div class="col-md-3">
 			
 		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card" style="width: 200px; height: 75px;"></div>
+		</div>
+		<div class="col-md-3">
+			<div class="card" style="width: 200px; height: 75px; margin-left: -60px;"></div>
+		</div>
+		<div class="col-md-3">
+			<div class="card" style="width: 200px; height: 75px; margin-left: -120px;"></div>
+		</div>
+
+	</div>
+	<div class="row">
+		<p>Ini bagian bawah nya lagi</p>
+	</div>
+	<div class="row">
+		<p>Ini bagian bawah nya lagi</p><br/>
+	</div>
+	<div class="row">
+		<p>Ini bagian bawah nya lagi</p><br/>
+	</div>
+	<div class="row">
+		<p>Ini bagian bawah nya lagi</p><br/>
+	</div>
+	<div class="row">
+		<p>Ini bagian bawah nya lagi</p><br/>
+	</div>
+	<div class="row">
+		<p>Ini bagian bawah nya lagi</p><br/>
 	</div>
 </div>
 
