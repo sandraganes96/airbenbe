@@ -31,8 +31,9 @@
 		}
 		#up {
 			background-image: url("<?php echo base_url(); ?>assets/img/bg.jpg");
-			background-position: 10% 80%;
-			background-size: 1366px;
+			background-position: 10% 50%;
+			background-size: 1350px;
+			height: 680px;
 			background-repeat: no-repeat;
 
 		}
@@ -44,10 +45,10 @@
 
 		}
 		#nav {
-			margin-right: -120px;
+			margin-right: -110px;
 		}
 		#brand {
-			margin-left: -103px;
+			margin-left: -100px;
 		}
 		label {
 			font-family: Cereal-M;
@@ -72,7 +73,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="card" style="width: 442px; height: 480px; padding: 30px; border-radius: 5px; margin-top: 45px; margin-left: 30px;">
+				<div class="card" style="width: 442px; height: 480px; padding: 30px; border-radius: 5px; margin-top: 45px; margin-left: 35px;">
 					<div></div>
 					<h2 style="font-family: Cereal-B; font-size: 30px;">Pesan rumah dan pengalaman unik.</h2>
 					<form>
