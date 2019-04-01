@@ -155,6 +155,9 @@
 	<div class="row">
 		<p>Ini bagian bawah nya lagi</p><br/>
 	</div>
+	<div class="row">
+		<p>Ini bagian bawah nya lagi</p><br/>
+	</div>
 </div>
 
 </body>
