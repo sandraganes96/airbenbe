@@ -139,9 +139,6 @@
 
 	</div>
 	<div class="row">
-		<p>Test Naufal</p>
-	</div>
-	<div class="row">
 		<p>Ini bagian bawah nya lagi</p>
 	</div>
 	<div class="row">
