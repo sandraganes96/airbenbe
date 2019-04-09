@@ -105,9 +105,7 @@
 			</div>
 		</div>
 	</div>
-	<br/>
-	<br/>
-	<p style="margin-left: 1100px;"><a href="#">Lebih dari 300 rumah unik di Oregon</a></p>
+	<p style="margin-left: 1170px;"><a href="#" style="color: white;text-align: right; font-family: Cereal-M; font-size: 14px;">Lebih dari 300 <br/> rumah unik di Oregon</a></p>
 	<br/>
 	<br/>
 	<br/>
@@ -128,16 +126,40 @@
 	</div>
 	<div class="row">
 		<div class="col-md-3">
-			<div class="card" style="width: 200px; height: 75px;"></div>
+			<div class="card" style="width: 200px; height: 75px;">
+				<img src="<?php echo base_url(); ?>assets/img/rumah-cat.jpg" width="110px" style="float: left;">
+				<a href="" style="font-family: Cereal-B; color: black; float: right;">Rumah</a>
+			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="card" style="width: 200px; height: 75px; margin-left: -60px;"></div>
+			<div class="card" style="width: 200px; height: 75px; margin-left: -60px;">
+				<img src="<?php echo base_url(); ?>assets/img/naik-sepeda.jpg" width="130px" style="float: left;">
+				<a href="" style="font-family: Cereal-B; color: black; float: right;">Pengalaman</a>
+			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="card" style="width: 200px; height: 75px; margin-left: -120px;"></div>
+			<div class="card" style="width: 200px; height: 75px; margin-left: -120px;">
+				<img src="<?php echo base_url(); ?>assets/img/restoran.jpg" width="110px" style="float: left;">
+				<a href="" style="font-family: Cereal-B; color: black; float: right;">Restoran</a>
+			</div>
 		</div>
-
+		
 	</div>
+	<br/>
+	<br/>
+	<br/>
+	<div class="row">	
+		<div class="col-md-5">
+			<p style="font-family: Cereal-B; font-size: 25px;">Direkomendasikan Untuk Anda</p>
+		</div>
+		<div class="col-md-3">
+			
+		</div>
+		<div class="col-md-3">
+			
+		</div>
+	</div>
+	<br/>
 	<div class="row">
 		<p>Ini bagian bawah nya lagi</p>
 	</div>
