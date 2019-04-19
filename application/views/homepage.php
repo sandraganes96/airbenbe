@@ -1,61 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/logo.png"/>
-	<title>Persewaan Liburan, Rumah, Pengalaman & Tempat - AirBeNBe</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
-	<script src="<?php echo base_url(); ?>assets/jquery-3.3.1.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-	<style type="text/css">
-		@font-face {
-			font-family: "Cereal-M";
-			src: url("<?php echo base_url() ?>assets/fonts/AirbnbCereal-Medium.ttf");
-		}
-		@font-face {
-			font-family: "Cereal-L";
-			src: url("<?php echo base_url() ?>assets/fonts/AirbnbCereal-Light.ttf");
-		}
-		@font-face {
-			font-family: "Cereal-B";
-			src: url("<?php echo base_url() ?>assets/fonts/AirbnbCereal-Bold.ttf");
-		}
-		@font-face {
-			font-family: "Cereal-Bk";
-			src: url("<?php echo base_url() ?>assets/fonts/AirbnbCereal-Book.ttf");
-		}
+	<style>
 		.navbar.transparent {
 			padding: 15px;
-
 		}
+
 		#up {
 			background-image: url("<?php echo base_url(); ?>assets/img/bg.jpg");
 			background-position: 10% 50%;
 			background-size: 1350px;
 			height: 680px;
 			background-repeat: no-repeat;
-
 		}
+
 		#nav>li>a {
 			color: white;
 			margin: 13px;
 			font-family: Cereal-M;
 			font-size: 14px;
-
 		}
 		#nav {
 			margin-right: -20px;
 		}
-		#brand {
-
-		}
 		label {
 			font-family: Cereal-M;
 			font-size: 12px;
-
 		}
-  	</style>
+	</style>
 </head>
 <body>
 <div id="up">
@@ -126,25 +95,30 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-3">
-			<div class="card" style="width: 200px; height: 75px;">
-				<img src="<?php echo base_url(); ?>assets/img/rumah-cat.jpg" width="110px" style="float: left;">
-				<a href="" style="font-family: Cereal-B; color: black; float: right;">Rumah</a>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="card" style="width: 200px; height: 75px; margin-left: -60px;">
-				<img src="<?php echo base_url(); ?>assets/img/naik-sepeda.jpg" width="130px" style="float: left;">
-				<a href="" style="font-family: Cereal-B; color: black; float: right;">Pengalaman</a>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="card" style="width: 200px; height: 75px; margin-left: -120px;">
-				<img src="<?php echo base_url(); ?>assets/img/restoran.jpg" width="110px" style="float: left;">
-				<a href="" style="font-family: Cereal-B; color: black; float: right;">Restoran</a>
-			</div>
-		</div>
-
+  	<div class="col-sm-3">
+    	<div class="card">
+      	<div class="card-body">
+					<img src="<?php echo base_url(); ?>assets/img/rumah-cat.jpg" width="110px" style="float: left;">
+					<a href="" style="font-family: Cereal-B; color: black; float: right;">Rumah</a>
+      	</div>
+    	</div>
+  	</div>
+  	<div class="col-sm-3">
+    	<div class="card">
+      	<div class="card-body">
+					<img src="<?php echo base_url(); ?>assets/img/naik-sepeda.jpg" width="110px" style="float: left;">
+					<a href="" style="font-family: Cereal-B; color: black; float: right;">Pengalaman</a>
+      	</div>
+    	</div>
+  	</div>
+		<div class="col-sm-3">
+    	<div class="card">
+      	<div class="card-body">
+					<img src="<?php echo base_url(); ?>assets/img/restoran.jpg" width="110px" style="float: left;">
+					<a href="" style="font-family: Cereal-B; color: black; float: right;">Restoran</a>
+      	</div>
+    	</div>
+  	</div>
 	</div>
 	<br/>
 	<br/>
