@@ -37,7 +37,7 @@
 			background-repeat: no-repeat;
 
 		}
-		#nav>a {
+		#nav>li>a {
 			color: white;
 			margin: 13px;
 			font-family: Cereal-M;
@@ -45,10 +45,10 @@
 
 		}
 		#nav {
-			margin-right: -110px;
+			margin-right: -20px;
 		}
 		#brand {
-			margin-left: -100px;
+
 		}
 		label {
 			font-family: Cereal-M;
@@ -59,16 +59,17 @@
 </head>
 <body>
 <div id="up">
-	<nav class="navbar transparent navbar-dark navbar-fixed-top">
-		<div class="container" >
-			<div id="brand"><a class="navbar-brand" href="#" ><img style="width: 31px;" src="<?php echo base_url();?>assets/img/logo_white.png"></a></div>
-			<div id="nav">
-				<a href="#">Menerima tamu di rumah</a>
-				<a href="#">Adakan sebuah pengalaman</a>
-				<a href="#">Bantuan</a>
-				<a href="#">Daftar</a>
-				<a href="#">Masuk</a>			
-			</div>		
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid" >
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#" ><img style="width: 31px;" src="<?php echo base_url();?>assets/img/logo_white.png"></a>
+			</div>
+			<ul class="nav navbar-nav" id="nav">
+				<li class="nav-item"><a class="nav-link" href="#">Menjadi tuan rumah</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Bantuan</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Daftar</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Masuk</a></li>
+			</ul>
 	</nav>
 	<div class="container">
 		<div class="row">
@@ -98,10 +99,10 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-			
+
 			</div>
 			<div class="col-md-3">
-				
+
 			</div>
 		</div>
 	</div>
@@ -110,18 +111,18 @@
 	<br/>
 	<br/>
 </div>
-	
+
 <div class="container" style="margin-top: 40px;">
 	<div class="row">
-		
+
 		<div class="col-md-3">
 			<p style="font-family: Cereal-B; font-size: 25px;">Jelajahi AirBeNBe</p>
 		</div>
 		<div class="col-md-3">
-			
+
 		</div>
 		<div class="col-md-3">
-			
+
 		</div>
 	</div>
 	<div class="row">
@@ -143,20 +144,20 @@
 				<a href="" style="font-family: Cereal-B; color: black; float: right;">Restoran</a>
 			</div>
 		</div>
-		
+
 	</div>
 	<br/>
 	<br/>
 	<br/>
-	<div class="row">	
+	<div class="row">
 		<div class="col-md-5">
 			<p style="font-family: Cereal-B; font-size: 25px;">Direkomendasikan Untuk Anda</p>
 		</div>
 		<div class="col-md-3">
-			
+
 		</div>
 		<div class="col-md-3">
-			
+
 		</div>
 	</div>
 	<br/>
