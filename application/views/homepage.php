@@ -13,12 +13,15 @@
 
 		#nav>li>a {
 			color: white;
-			margin: 13px;
+			margin: 12px;
 			font-family: Cereal-M;
 			font-size: 14px;
 		}
+		#nav>li:hover {
+			border-bottom: 2px solid white;
+		}
 		#nav {
-			margin-right: -20px;
+			margin-right: -22px;
 		}
 		label {
 			font-family: Cereal-M;
