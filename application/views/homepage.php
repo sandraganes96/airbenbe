@@ -43,7 +43,7 @@
 	    position: fixed;
 	    background:transparent;
 	    opacity: 0;
-	    font-family: sans-serif;
+	    font-family: Cereal-M;
 	    pointer-events: none;
 	  }
 
@@ -83,7 +83,11 @@
 	        height: 50px;
 	        border: 1px solid;
 	        font-size: 15px;
+					font-family: Cereal-M
 	    }
+			select {
+				font-family: Cereal-M
+			}
 	    input:checked{
 	        background:#ffb400;
 	    }
@@ -92,7 +96,9 @@
 	        outline-color: none;
 	        border: #007a87 1px solid;
 	    }
-
+			option {
+				font-family: Cereal-M
+			}
 	    select{
 	        margin-bottom: 5px;
 	        padding: 10px;
@@ -160,9 +166,9 @@
 	    <div class="modal-content">
 	        <div class="modal-header">
 	          <button type="button" class="close" data-dismiss="modal">X</button> <br><br>
-	          <span class="modal_heading">Daftar dengan
-	            <a href="#" class="FB" style="color:#007a87;text-decoration-line: none;">Facebook</a> atau
-	            <a href="#" class="FB" style="color:#007a87;text-decoration-line: none;">Google</a>
+	          <span class="modal_heading"style="font-family: Cereal-M">Daftar dengan
+	            <a href="#" class="FB" style="color:#007a87;text-decoration-line: none;font-family: Cereal-M">Facebook</a> atau
+	            <a href="#" class="FB" style="color:#007a87;text-decoration-line: none;font-family: Cereal-M">Google</a>
 	            <br> <p>atau</p>
 	    			</span>
 	        </div>
@@ -172,8 +178,8 @@
 	                <input id="depan" type="text" placeholder="Nama depan" ><br>
 	                <input id="belakang" type="text" placeholder="Nama belakang" ><br>
 	                <input id="pass" type="password" placeholder="Buat kata sandi" >
-	                <p style="font-size: 11pt; font-weight: bold">Tanggal Lahir</p>
-	                <p style="font-size: 10pt;">Anda harus berusia setidaknya 18 tahun. Orang lain tidak akan melihat tanggal lahir Anda.</p>
+	                <p style="font-size: 11pt; font-weight: bold; font-family: Cereal-M">Tanggal Lahir</p>
+	                <p style="font-size: 10pt; font-family: Cereal-M;">Anda harus berusia setidaknya 18 tahun. Orang lain tidak akan melihat tanggal lahir Anda.</p>
 	                    <select name="Bulan">
 	                        <option>Bulan</option>
 	                        <option value="Januari">Januari</option>
@@ -237,15 +243,15 @@
 	                        <option value="2000">2000</option>
 	                        <option value="2001">2001</option>
 	                    </select>
-	                <p style="font-size: 10pt">Kami akan mengirimkan promo pemasaran, penawaran khusus,inspirasi, dan pembaruan kebijakan melalui email.</p>
+	                <p style="font-size: 10pt;font-family: Cereal-M">Kami akan mengirimkan promo pemasaran, penawaran khusus,inspirasi, dan pembaruan kebijakan melalui email.</p>
 	                <input type="submit" class="btnRegister" value="Daftar">
-	                <p style="font-size: 10pt"> Saya tidak ingin menerima pesan pemasaran dari Airbnb. Saya juga bisa memilih untuk berhenti menerima pesan seperti
+	                <p style="font-size: 10pt;font-family: Cereal-M"> Saya tidak ingin menerima pesan pemasaran dari Airbnb. Saya juga bisa memilih untuk berhenti menerima pesan seperti
 	                ini kapan pun dengan menyetel pengaturan akun saya atau melalui tautan di pesan tersebut.</p>
 	            </form>
 	        	</div>
 	        	<div class="modal-footer">
-	            <span class="modal_footer">Sudah punya akun Airbnb?
-	                <a href="<?php echo site_url('c_login/index') ?>" style="color:#007a87;text-decoration-line: none;">Log masuk</a>
+	            <span class="modal_footer"style="font-family: Cereal-M">Sudah punya akun Airbnb?
+	                <a href="<?php echo site_url('c_login/index') ?>" style="color:#007a87;text-decoration-line: none;font-family: Cereal-M">Log masuk</a>
 	            </span>
 						</div>
 	    </div>
@@ -254,7 +260,7 @@
 </div>
 <div id="up">
 	<nav class="navbar navbar-expand-lg">
-		<div class="container-fluid" >
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="<?php echo base_url(); ?>" ><img style="width: 31px;" src="<?php echo base_url();?>assets/img/logo_white.png"></a>
 			</div>
