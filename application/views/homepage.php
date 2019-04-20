@@ -40,7 +40,7 @@
 				<li class="nav-item"><a class="nav-link" href="#">Menjadi tuan rumah</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Bantuan</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">Daftar</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Masuk</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo site_url('c_login/index'); ?>">Masuk</a></li>
 			</ul>
 	</nav>
 	<div class="container">
