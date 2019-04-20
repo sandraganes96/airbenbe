@@ -11,7 +11,7 @@
 			background-repeat: no-repeat;
 		}
 
-		#nav>li>a {
+		#nav>li>a, #nav>li>div>a {
 			color: white;
 			margin: 12px;
 			font-family: Cereal-M;
@@ -245,7 +245,7 @@
 	        	</div>
 	        	<div class="modal-footer">
 	            <span class="modal_footer">Sudah punya akun Airbnb?
-	                <a href="#" style="color:#007a87;text-decoration-line: none;">Log masuk</a>
+	                <a href="<?php echo site_url('c_login/index') ?>" style="color:#007a87;text-decoration-line: none;">Log masuk</a>
 	            </span>
 						</div>
 	    </div>
@@ -256,10 +256,17 @@
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid" >
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#" ><img style="width: 31px;" src="<?php echo base_url();?>assets/img/logo_white.png"></a>
+				<a class="navbar-brand" href="<?php echo base_url(); ?>" ><img style="width: 31px;" src="<?php echo base_url();?>assets/img/logo_white.png"></a>
 			</div>
 			<ul class="nav navbar-nav" id="nav">
-				<li class="nav-item"><a class="nav-link" href="#">Menjadi tuan rumah</a></li>
+				<li class="nav-item">
+					<div class="dropdown">
+						<a class="nav-link" data-toggle="dropdown" href="#">Menjadi tuan rumah</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">lalala</a></li>
+						</ul>
+					</div>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="#">Bantuan</a></li>
 				<li class="nav-item"><a class="nav-link" href="" data-toggle="modal" data-target="#myModal">Daftar</a></li>
 				<li class="nav-item"><a class="nav-link" href="<?php echo site_url('c_login/index'); ?>">Masuk</a></li>
